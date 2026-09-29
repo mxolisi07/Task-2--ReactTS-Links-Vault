@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import type { LinkItem } from "../src/types";
 import { getLinks, saveLinks } from "../src/storage";
-import LinkCard from "../components/LinkCard";
-import SearchBar from "../components/SearchBar";
-import EditLinkModal from "../components/EditLinkModal";
+import LinkCard from "../Components/LinkCard";
+import SearchBar from "../Components/SearchBar";
+import EditLinkModal from "../Components/EditLinkModal";
 
 
 const AllLinks: React.FC = () => {

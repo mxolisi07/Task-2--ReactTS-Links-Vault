@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import type { LinkItem } from "../src/types";
 import { getLinks } from "../src/storage";
-import LinkCard from "../components/LinkCard";
+import LinkCard from "../Components/LinkCard";
 
 
 

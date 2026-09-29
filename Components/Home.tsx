@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import type { LinkItem } from "../src/types";
 import { getLinks, saveLinks } from "../src/storage";
-import SearchBar from "../components/SearchBar";
-import SummaryCards from "../components/SummaryCards";
-import LinkCard from "../components/LinkCard";
-import EditLinkModal from "../components/EditLinkModal";
+import SearchBar from "../Components/SearchBar";
+import SummaryCards from "../Components/SummaryCards";
+import LinkCard from "../Components/LinkCard";
+import EditLinkModal from "../Components/EditLinkModal";
 import { useNavigate } from "react-router-dom";
 
 const Home: React.FC = () => {
